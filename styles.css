@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+#comment-form {
+	margin-bottom: 20px;
+}
+
+#comment-list {
+	width: 500px;
+	border: 1px solid #eee;
+}
+
+.comment {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.comment-text {
+	margin: 0 0 8px 0;
+	font-size: 14px;
+}
+
+.comment-meta {
+	margin: 0;
+	font-size: 12px;
+	font-style: italic;
+	color: #888;
+}
+
+.author {
+	font-weight: bold;
+	margin-right: 10px;
+}

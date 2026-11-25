@@ -7,10 +7,41 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<section id="comments-section">
+		<h2>Comments</h2>
+		<p>Share your thoughts below!</p>
 
+		<form id="comment-form">
+			<textarea
+				id="comment-input"
+				name="comment"
+				rows="4"
+				cols="50"
+				placeholder="Write your comment here..."
+			></textarea>
+			<button type="submit">Submit</button>
+		</form>
+
+		<div id="comment-list">
+			<div class="comment">
+				<p class="comment-text">This is an excellent article!</p>
+				<p class="comment-meta">
+					<span class="author">Akash</span>
+					<span class="date">Feb 24 2022</span>
+				</p>
+			</div>
+
+			<div class="comment">
+				<p class="comment-text">I totally agree.</p>
+				<p class="comment-meta">
+					<span class="author">Mrityunjay</span>
+					<span class="date">Feb 23 2022</span>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
